@@ -5,6 +5,7 @@ const readline = require('readline');
 var uuidv5 = require('uuidv5');
 var sha256 = require('sha256');
 var stream = require('stream');
+const { DateTime } = require("luxon");
 var LineByLineReader = require('line-by-line');
 const { buffer } = require('d3');
 lr = new LineByLineReader('dictionary.txt');
@@ -78,31 +79,15 @@ const readInterface2 = readline.createInterface({
         //////////////////////////////////////////////////////////////////////////////////////
         //time converter
         for (var t = 0; t < data.length; t++){
-            var ctime = parseInt(data[t].last_access) + 2588400;
-            var a = new Date(ctime * 1000);
-            var year = a.getFullYear();
-            var month = a.getMonth();
-            if (parseInt(month) < 10){
-                month = "0" + String(month)
+            var formatting = "";
+            var time = DateTime.fromSeconds(parseInt(data[t].last_access), { zone: "America/Chicago"});
+            var temp = String(time.toISO())
+            if (temp.indexOf("-05:00") != -1){
+                time = time.plus({hours: -1});
             }
-            var date = a.getDate();
-            if (parseInt(date) < 10){
-                date = "0" + String(date)
-            }
-            var hour = a.getHours();
-            if (parseInt(hour) < 10){
-                hour = "0" + String(hour)
-            }
-            var min = a.getMinutes();
-            if (parseInt(min) < 10){
-                min = "0" + String(min)
-            }
-            var sec = a.getSeconds();
-            if (parseInt(sec) < 10){
-                sec = "0" + String(sec)
-            }
-            var time = year + '-' + month + '-' + date + 'T' + hour + ':' + min + ':' + sec + '-0600' ;
-            data[t].last_access = time;
+            var time = time.toISO();
+            formatting = String(time).substring(0, (String(time).length -10)) + "-0600";
+            data[t].last_access = formatting;
         }
 
         //#####################################################################################
