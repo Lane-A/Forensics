@@ -40,7 +40,7 @@ const readInterface2 = readline.createInterface({
            n.push(line);
         });
 
-        fs.createReadStream('database_dump.csv')
+        fs.createReadStream('challenge_dumpcopy.csv')
         .pipe(csv())
         .on('data', (row) => {
             var tempdata = {
@@ -60,7 +60,7 @@ const readInterface2 = readline.createInterface({
             //dictionary attack
             for (var i = 0; i < d.length; i++){
                 //namespace loop
-                if (String(uuidv5('d9b2d63d-a233-4123-847a-76838bf2413a', d[i])) === String(data[t].username)){
+                if (String(uuidv5('0ec93b3a-9751-4aee-bd3a-c447c22b7035', d[i])) === String(data[t].username)){
                     data[t].username = d[i];   
                 }
                 if (String(sha256(d[i])).toUpperCase() === String(data[t].password)){
@@ -70,7 +70,7 @@ const readInterface2 = readline.createInterface({
             //names attack
             for (var k = 0; k < n.length; k++){
                 //namespace loop
-                if (String(uuidv5('d9b2d63d-a233-4123-847a-76838bf2413a', n[k])) === String(data[t].username)){
+                if (String(uuidv5('0ec93b3a-9751-4aee-bd3a-c447c22b7035', n[k])) === String(data[t].username)){
                     data[t].username = n[k];   
                 }
                 if (String(sha256(n[k])).toUpperCase() === String(data[t].password)){

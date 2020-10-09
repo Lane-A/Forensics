@@ -1,5 +1,5 @@
 var uuidv5 = require('uuidv5');
-import * as TSInMemDb from "ts-in-memory-database"
+//import * as TSInMemDb from "ts-in-memory-database"
 var sha256 = require('sha256');
 var { DateTime } = require("luxon");
 /*
@@ -24,14 +24,16 @@ console.log(temp);
 
 console.log()
 */
-var data = 1522831467;
+var data = 843812665;
 var formatting = "";
-var time = DateTime.fromSeconds(parseInt(data), { zone: "America/Chicago"});
-var temp = String(time.toISO())
+var time = DateTime.fromSeconds(parseInt(data));
+var temp = String(time.toISO());
+/*
 if (temp.indexOf("-05:00") != -1){
     time = time.plus({hours: -1});
 }
 var time = time.toISO();
 formatting = String(time).substring(0, (String(time).length -10)) + "-0600";
 data[t].last_access = formatting;
-console.log(formatting);
+*/
+console.log(temp);

@@ -1,0 +1,44 @@
+d77d530f-cefc-5187-8f9c-fe2e73465671,sarcastically,1996-02-13T23:04:38-0600
+
+user on feb 14
+
+
+alleged namespace
+
+0ec93b3a-9751-4aee-bd3a-c447c22b7035
+
+Chirico,C97FA6FBF6EF81DB771E8AE4B370A5ECDA630150251642547D73EB6D892F854D,1996-09-27T02:24:25-0600
+
+5 down is the suspected culprit
+
+c9548d6b-179d-53b7-a17c-d88740c7ba10,C97FA6FBF6EF81DB771E8AE4B370A5ECDA630150251642547D73EB6D892F854D,843812665
+
+
+alleged time of culprit
+843812665
+
+
+straight conversion is 
+1996-09-27T03:24:25.000-05:00
+
+
+Istanbul timezone is GMT +3
+so 03 + 8 = 11 (convering)
+
+11:24:25
+
+decrypted file 2
+
+got this password
+
+vB^A&V!m4423
+
+used that as my dictionary
+this user popped up
+abb64c80-d263-55a4-834f-a67b4d579499,vB^A&V!m4423,1996-03-29T07:24:10-0600
+
+line 42
+
+which corresponds to this username
+
+Dangerfield
