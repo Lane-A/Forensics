@@ -1,0 +1,29 @@
+Number of partitions: 4
+
+Partition 1 Details:
+Partition Name: FAT Part
+Partition GUID: EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Partition Type: windows - "Basic data partition"
+Partition Starting Address: 2048
+Partition Ending Address: 1142783
+
+Partition 2 Details:
+Partition Name: NTFS Part
+Partition GUID: EBD0A0A2-B9E5-4433-87C0-68B6B72699C7
+Partition Type: windows - "Basic data partition"
+Partition Starting Address: 4136960
+Partition Ending Address: 5726207
+
+Partition 3 Details:
+Partition Name: Ext4 Part
+Partition GUID: 0FC63DAF-8483-4772-8E79-3D69D8477DE4
+Partition Type: linux - "Linux filesystem data"
+Partition Starting Address: 9570304
+Partition Ending Address: 12896255
+
+Partition 4 Details:
+Partition Name: Ext2 Part
+Partition GUID: 0FC63DAF-8483-4772-8E79-3D69D8477DE4
+Partition Type: linux - "Linux filesystem data"
+Partition Starting Address: 12896256
+Partition Ending Address: 13948927

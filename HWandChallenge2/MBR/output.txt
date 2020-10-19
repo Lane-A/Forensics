@@ -1,0 +1,15 @@
+Number of partitions: 3
+Partition 1 Details:
+     Partition Type: Windows95 with 32-bit FAT (using LBA-mode INT 13 extensions)
+     Partition Address (LBA) : 2048
+     Number of Sectors in Partition: 1310720
+Partition 2 Details:
+     Partition Type: WindowsNT NTFS
+     Partition Address (LBA) : 1312768
+     Number of Sectors in Partition: 5437440
+Partition 3 Details:
+     Partition Type: Linux Linux native file system (ext2fs/xiafs)
+     Partition Address (LBA) : 6750208
+     Number of Sectors in Partition: 2289664
+Partition 4 Details:
+     Partition Type: NO-Partition empty partition-table entry

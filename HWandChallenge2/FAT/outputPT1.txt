@@ -1,0 +1,9 @@
+Bytes/Sector: 512
+Sectors/Cluster: 1
+Size of Sectors of the reserved area: 32
+Start Address of 1st FAT: 32
+# of FATS: 2
+Sectors/FAT: 520
+Cluster Address of Root Directory: 2
+Starting Sector Address of the Data Section: 1072
+Curr Megapointer: 549376

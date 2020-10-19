@@ -1,0 +1,2 @@
+Size of file = 730196
+Curr Cluster of file in fat: 4
