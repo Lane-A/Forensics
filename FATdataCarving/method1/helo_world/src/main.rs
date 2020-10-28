@@ -115,7 +115,7 @@ fn main() {
     let spf_final = u32::from_str_radix(&spf, 16).unwrap();
     println!("Sectors per FAT: {}", spf_final);
 
-    //Starting clustor of root directory
+    //Starting sector of root directory
     let caord = format!("{}{}{}{}", data[47], data[46], data[45], data[44]);
     let caord_final = u32::from_str_radix(&caord, 16).unwrap();
     println!("Cluster Address Of Root Directory: {}", caord_final);
@@ -128,95 +128,109 @@ fn main() {
     let mut mega_pointer: usize = ssotds_final as usize * bps_final as usize;
     println!("Megapointer: {}", mega_pointer);
 
-    let temp_pointer = 0;
+
+    let mut temp_pointer = 0;
     println!("Temp Pointer: {}", temp_pointer);
 
 
-    let mut pot_files = 0;
+    let mut original_mega_pointer = mega_pointer;
     //method 2
+
+    let mut s_file = Vec::new();
+
+    //original mega pointer
+
+
+    let mut cluster_address = 0;
     while mega_pointer + 1024 < size as usize {
+
+
+        //write all data from cluster to cluster
 
     //if beginning of file
         let temp = format!("{}{}{}", data[mega_pointer + 0], data[mega_pointer + 1], data[mega_pointer + 2]);
 
-        
+        //Find all file starting locations and push them into a Vec
+
+        //512 find if a file starting match
+
+        //spc*bps "Cluster steps"
+
+        //keep track of the steps takes = cluster address of that starting file + 2
         if temp.eq("FFD8FF"){
-            //found beginning of file
-            println!("Found start of a file");
-            let mut found_a_file = false;
-            let mut p_file: std::vec::Vec<std::string::String> = Vec::new();
-            let mut first_pass = true;
-            while !found_a_file {
-                // check if at EOF
-                if format!("{}{}{}{}{}{}{}{}", data[mega_pointer], data[mega_pointer + 1], data[mega_pointer + 2], data[mega_pointer + 3], data[mega_pointer + 4], data[mega_pointer + 5], data[mega_pointer + 6], data[mega_pointer + 7]).eq("FFD9000000000000"){
-                    p_file.push(format!("{}", data[mega_pointer + 0]));
-                    p_file.push(format!("{}", data[mega_pointer + 1]));
-                    pot_files += 1;
-                    
-                    let s: &str = &pot_files.to_string() as &str;
+            s_file.push(cluster_address + 2);
+        }
+        //jump 512
+        mega_pointer += 512;
+        cluster_address += 1;
+    }
+    println!("Cluster #s: {:?}", s_file);
 
-                    write_out(s, p_file);
-                    //write jpeg
-                    println!("Found end of a file");
-                    //set mega pointer to nect 512 set
-                    found_a_file = true;
-                    p_file = Vec::new();
+    //set mega pointer to the beginning of the fat table
+    mega_pointer = ffat_final as usize * bps_final as usize;
+    println!("Mega pointer: {}", mega_pointer);
 
-                    //get to next file starting location
-                    let mut found_next_spot = false;
-                    while !found_next_spot {
-                        if format!("{}{}{}", data[mega_pointer], data[mega_pointer + 1], data[mega_pointer + 2]).eq("FFD8FF"){
-                            mega_pointer = mega_pointer - 512;
-                            found_next_spot = true;
-                        }
-                        else if mega_pointer + 1024 > size as usize {
-                            found_next_spot = true;
-                        }
-                        else{
-                            mega_pointer = mega_pointer + 1;
-                        }
-                    }
-                    println!("at currently{}", mega_pointer);
-                }
-                //check for if found a new file
-                else if format!("{}{}{}", data[mega_pointer], data[mega_pointer + 1], data[mega_pointer + 2]).eq("FFD8FF"){
-                    if first_pass {
-                        first_pass = false;
-                        p_file.push(format!("{}", data[mega_pointer + 0]));
-                         mega_pointer = mega_pointer + 1;
-                    }
-                    else{
-                        if mega_pointer % 512 == 0 {
-                            //basically ignore the file that was to be written and acta s if the file header was just found
-                            p_file = Vec::new();
-                            first_pass = true;
-                        }
-                        else{
-                            p_file.push(format!("{}", data[mega_pointer + 0]));
-                            mega_pointer = mega_pointer + 1;
-                        }
-                    }
+    for x in 0..s_file.len() {
+        let mut cluster_things : std::vec::Vec<u32> = Vec::new();
+
+        temp_pointer = 4 * (s_file[x]);
+        println!("initial temp pointer: {}", temp_pointer);
+
+        let mut eof = false;
+        let mut first = true;
+        let mut im_over_it = true;
+
+        while !eof {
+
+            
+            if format!("{}{}{}{}", data[mega_pointer + temp_pointer + 3], data[mega_pointer + temp_pointer + 2], data[mega_pointer + temp_pointer + 1], data[mega_pointer + temp_pointer + 0]).eq("00000000") && first{
+                        eof = true;
+            }
+            else{
+                if format!("{}{}{}{}", data[mega_pointer + temp_pointer + 3], data[mega_pointer + temp_pointer + 2], data[mega_pointer + temp_pointer + 1], data[mega_pointer + temp_pointer + 0]).eq("0FFFFFFF") {
+                    first = false;
+                    eof = true;
 
                 }
                 else{
-                    p_file.push(format!("{}", data[mega_pointer + 0]));
-                    mega_pointer = mega_pointer + 1;
+                    //save cluster #s
+                    if im_over_it {
+                        cluster_things.push(s_file[x] as u32);
+                        im_over_it = false;
+                    }
+                    
+                    cluster_things.push(u32::from_str_radix(&format!("{}{}{}{}", data[mega_pointer + temp_pointer + 3], data[mega_pointer + temp_pointer + 2],data[mega_pointer + temp_pointer + 1],data[mega_pointer + temp_pointer + 0]) , 16).unwrap() );
+                    println!("Das next Cluster {}", u32::from_str_radix(&format!("{}{}{}{}", data[mega_pointer + temp_pointer + 3], data[mega_pointer + temp_pointer + 2],data[mega_pointer + temp_pointer + 1],data[mega_pointer + temp_pointer + 0]) , 16).unwrap());
+                    println!("Das hex {}", format!("{}{}{}{}", data[mega_pointer + temp_pointer + 3], data[mega_pointer + temp_pointer + 2],data[mega_pointer + temp_pointer + 1],data[mega_pointer + temp_pointer + 0]));
 
-
+                    temp_pointer = 4 * u32::from_str_radix(&format!("{}{}{}{}", data[mega_pointer + temp_pointer + 3], data[mega_pointer + temp_pointer + 2],data[mega_pointer + temp_pointer + 1],data[mega_pointer + temp_pointer + 0]) , 16).unwrap() as usize;
+                    println!("Temp pointer: {}", temp_pointer);
+                    first = false;
                 }
             }
+
         }
+        //write all data from cluster to cluster
 
-         //go till eof or new start of new file
+            //write all the things
 
-        //if found proper end of file
-        //write jpeg
+            let mut super_temp_pointer = 0;
+            let mut p_file: std::vec::Vec<std::string::String> = Vec::new();
+            println!("Writing file {}", x);
+            for y in 0..cluster_things.len() {
+                    super_temp_pointer = original_mega_pointer + (512 * (cluster_things[y] as usize - 2)) ;
+                    for z in 0..512 {
+                        p_file.push(format!("{}", data[super_temp_pointer + z]));
+                    }
 
-            //set mega pointer to next logical 512 jump
+            }
+
+            let file_name: &str = &x.to_string() as &str;
+
+            write_out(file_name, p_file);
 
 
-        //else jump 512
-        mega_pointer += 512;
     }
-    println!("Potential files: {}", pot_files);
+
+
 }
