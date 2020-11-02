@@ -1,0 +1,2 @@
+Prefetch Directory is  C:\Users\OmenB\Documents\GitHub\Forensics\anif\asd\Temp\RecentActivity\FAT_Imposter.iso-prefetch
+DB file is  C:\Users\OmenB\Documents\GitHub\Forensics\anif\asd\ModuleOutput\prefetch\FAT_Imposter.iso-Autopsy_PF_DB.db3

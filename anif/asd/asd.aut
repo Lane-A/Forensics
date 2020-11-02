@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <SchemaVersion>5.0</SchemaVersion>
+  <CreatedDate>2020/11/01 19:06:14 (CST)</CreatedDate>
+  <ModifiedDate>2020/11/01 19:06:16 (CST)</ModifiedDate>
+  <CreatedByAutopsyVersion>4.16.0</CreatedByAutopsyVersion>
+  <SavedByAutopsyVersion>4.16.0</SavedByAutopsyVersion>
+  <Case>
+    <Name>asd_20201101_190614</Name>
+    <DisplayName>asd</DisplayName>
+    <Number>zxc</Number>
+    <Examiner/>
+    <ExaminerPhone/>
+    <ExaminerEmail/>
+    <CaseNotes/>
+    <CaseType>Single-user case</CaseType>
+    <Database/>
+    <CaseDatabase>autopsy.db</CaseDatabase>
+    <TextIndex/>
+  </Case>
+  <OriginalCase/>
+</AutopsyCase>

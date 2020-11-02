@@ -1,0 +1,1218 @@
+2020-11-01 19:06:16.934 org.sleuthkit.autopsy.keywordsearch.Server isRunning
+INFO: Solr server is running
+2020-11-01 19:06:17.629 org.sleuthkit.autopsy.imagegallery.PerCaseProperties getConfigSetting
+INFO: File did not exist. Created file [Image Gallery.properties]
+2020-11-01 19:06:17.787 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB setPragmas
+INFO: sqlite-jdbc version 3.25.2 loaded in native mode
+2020-11-01 19:06:17.838 org.sleuthkit.autopsy.casemodule.Case openAsCurrentCase
+INFO: Opened asd (asd_20201101_190614) in C:\Users\OmenB\Documents\GitHub\Forensics\anif\asd as the current case
+2020-11-01 19:06:17.945 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Central Repository, version = 4.16.0
+2020-11-01 19:06:17.952 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.16.0
+2020-11-01 19:06:17.958 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Drone Analyzer, version = 4.16.0
+2020-11-01 19:06:17.963 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.16.0
+2020-11-01 19:06:17.971 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.16.0
+2020-11-01 19:06:17.976 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Exif Parser, version = 4.16.0
+2020-11-01 19:06:17.982 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.16.0
+2020-11-01 19:06:17.989 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.16.0
+2020-11-01 19:06:17.995 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.16.0
+2020-11-01 19:06:17.995 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.16.0
+2020-11-01 19:06:18.0 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2020-11-01 19:06:18.006 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.16.0
+2020-11-01 19:06:18.011 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.16.0
+2020-11-01 19:06:18.014 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.16.0
+2020-11-01 19:06:18.016 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.16.0
+2020-11-01 19:06:18.017 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.16.0
+2020-11-01 19:06:18.252 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = GPX Parser, version = 1.2
+2020-11-01 19:06:18.252 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.16.0
+2020-11-01 19:06:18.781 org.sleuthkit.autopsy.casemodule.AddImageWizardSelectDspPanel getComponent
+WARNING: There was no properties file containing the last DataSourceProcessor used, Disk Image or VM will be selected as default selection
+2020-11-01 19:07:05.881 org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMonitoredRootDirectory
+INFO: Monitoring disk space of C:\
+2020-11-01 19:07:05.881 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+INFO: Starting ingest job 0
+2020-11-01 19:07:05.885 org.sleuthkit.autopsy.ingest.IngestPipelinesConfiguration getInstance
+INFO: Creating ingest module loader instance
+2020-11-01 19:07:06.3 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer loadConfigFile
+INFO: Load successful
+2020-11-01 19:07:07.259 org.sleuthkit.autopsy.keywordsearch.Server isRunning
+INFO: Solr server is running
+2020-11-01 19:07:07.34 org.sleuthkit.autopsy.ingest.IngestJobPipeline logInfoMessage
+INFO: Preparing for first stage analysis (data source = FAT_Imposter.iso, objId = 1, pipeline id = 0, ingest job id = 1)
+2020-11-01 19:07:07.347 org.sleuthkit.autopsy.ingest.IngestJobPipeline logInfoMessage
+INFO: Waiting for streaming files (data source = FAT_Imposter.iso, objId = 1, pipeline id = 0, ingest job id = 1)
+2020-11-01 19:07:07.428 org.sleuthkit.autopsy.ingest.IngestJobPipeline logInfoMessage
+INFO: Scheduling first stage data source level analysis tasks (data source = FAT_Imposter.iso, objId = 1, pipeline id = 0, ingest job id = 1)
+2020-11-01 19:07:07.429 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Recent Activity analysis of FAT_Imposter.iso (pipeline=0) starting
+2020-11-01 19:07:07.431 org.sleuthkit.autopsy.recentactivity.Chrome getHistory
+INFO: Could not find any allocated Chrome history files.
+2020-11-01 19:07:07.432 org.sleuthkit.autopsy.recentactivity.Chrome getBookmark
+INFO: Didn't find any Chrome bookmark files.
+2020-11-01 19:07:07.432 org.sleuthkit.autopsy.recentactivity.Chrome getCookie
+INFO: Didn't find any Chrome cookies files.
+2020-11-01 19:07:07.433 org.sleuthkit.autopsy.recentactivity.Chrome getLogins
+INFO: Didn't find any Chrome Login Data files.
+2020-11-01 19:07:07.433 org.sleuthkit.autopsy.recentactivity.Chrome getAutofill
+INFO: Didn't find any Chrome Web Data files.
+2020-11-01 19:07:07.433 org.sleuthkit.autopsy.recentactivity.Chrome getDownload
+INFO: Didn't find any Chrome download files.
+2020-11-01 19:07:07.439 org.sleuthkit.autopsy.recentactivity.Firefox getHistory
+INFO: No FireFox history files found.
+2020-11-01 19:07:07.439 org.sleuthkit.autopsy.recentactivity.Firefox getBookmark
+INFO: Didn't find any firefox bookmark files.
+2020-11-01 19:07:07.44 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadPreVersion24
+INFO: Didn't find any pre-version-24.0 Firefox download files.
+2020-11-01 19:07:07.44 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadVersion24
+INFO: Didn't find any version-24.0 Firefox download files.
+2020-11-01 19:07:07.44 org.sleuthkit.autopsy.recentactivity.Firefox getCookie
+INFO: Didn't find any Firefox cookie files.
+2020-11-01 19:07:07.441 org.sleuthkit.autopsy.recentactivity.Firefox getFormsHistory
+INFO: No FireFox form history files found.
+2020-11-01 19:07:07.442 org.sleuthkit.autopsy.recentactivity.Firefox getAutofillProfiles
+INFO: Didn't find any Firefox Autofill Profiles files.
+2020-11-01 19:07:07.442 org.sleuthkit.autopsy.recentactivity.ExtractIE getBookmark
+INFO: Didn't find any IE bookmark files.
+2020-11-01 19:07:07.443 org.sleuthkit.autopsy.recentactivity.ExtractIE getCookie
+INFO: Didn't find any IE cookies files.
+2020-11-01 19:07:07.443 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco results path: C:\Users\OmenB\Documents\GitHub\Forensics\anif\asd\Temp\RecentActivity\IE\results
+2020-11-01 19:07:07.443 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco2 home: C:\Program Files\Autopsy-4.16.0\autopsy\pasco2
+2020-11-01 19:07:07.444 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: No InternetExplorer history files found.
+2020-11-01 19:07:07.447 org.sleuthkit.autopsy.recentactivity.RecentDocumentsByLnk getRecentDocuments
+INFO: Didn't find any recent files.
+2020-11-01 19:07:07.448 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Processing 0 blackboard artifacts.
+2020-11-01 19:07:07.449 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Extracted 0 queries from the blackboard
+2020-11-01 19:07:07.449 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer process
+INFO: Search Engine stats: 
+Google : 0
+Yahoo : 0
+Twitter : 0
+LinkedIn : 0
+Facebook : 0
+Bing : 0
+Baidu : 0
+Sogou : 0
+Soso : 0
+Youdao : 0
+Yandex : 0
+Biglobe : 0
+Linkestan : 0
+Parseek : 0
+Parset : 0
+
+2020-11-01 19:07:07.496 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner startJob
+INFO: Adding job 0
+2020-11-01 19:07:07.498 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner startJob
+INFO: Resetting periodic search time out to default value
+2020-11-01 19:07:07.852 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=11] coffee2.jpg, see Tika log for details...
+2020-11-01 19:07:07.859 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=9] coffee1.jpg, see Tika log for details...
+2020-11-01 19:07:07.992 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=13] coffee3.jpg, see Tika log for details...
+2020-11-01 19:07:08.241 org.sleuthkit.autopsy.modules.exif.ExifParserFileIngestModule processFile
+WARNING: IOException when parsing image file '/Photos//coffee4.jpg' (id=15).
+java.io.EOFException: End of data reached.
+	com.drew.lang.StreamReader.getBytes(StreamReader.java:84)
+	com.drew.lang.StreamReader.getBytes(StreamReader.java:72)
+	com.drew.imaging.jpeg.JpegSegmentReader.readSegments(JpegSegmentReader.java:151)
+	com.drew.imaging.jpeg.JpegMetadataReader.process(JpegMetadataReader.java:124)
+	com.drew.imaging.jpeg.JpegMetadataReader.readMetadata(JpegMetadataReader.java:77)
+	com.drew.imaging.jpeg.JpegMetadataReader.readMetadata(JpegMetadataReader.java:84)
+	com.drew.imaging.ImageMetadataReader.readMetadata(ImageMetadataReader.java:143)
+	com.drew.imaging.ImageMetadataReader.readMetadata(ImageMetadataReader.java:121)
+	com.drew.imaging.ImageMetadataReader.readMetadata(ImageMetadataReader.java:100)
+	org.sleuthkit.autopsy.modules.exif.ExifParserFileIngestModule.processFile(ExifParserFileIngestModule.java:140)
+	org.sleuthkit.autopsy.modules.exif.ExifParserFileIngestModule.process(ExifParserFileIngestModule.java:131)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$PipelineModule.process(FileIngestPipeline.java:232)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline.process(FileIngestPipeline.java:137)
+	org.sleuthkit.autopsy.ingest.IngestJobPipeline.process(IngestJobPipeline.java:1017)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:60)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:961)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2020-11-01 19:07:08.278 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=15] coffee4.jpg, see Tika log for details...
+2020-11-01 19:07:08.361 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=18] coffee6.jpg, see Tika log for details...
+2020-11-01 19:07:08.364 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=16] coffee5.jpg, see Tika log for details...
+2020-11-01 19:07:08.421 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer complete
+INFO: Search Engine URL Query Analyzer has completed.
+2020-11-01 19:07:08.422 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Recent Activity analysis of FAT_Imposter.iso (pipeline=0) finished
+2020-11-01 19:07:08.422 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Android Analyzer analysis of FAT_Imposter.iso (pipeline=0) starting
+2020-11-01 19:07:08.424 org.sleuthkit.autopsy.textextractors.TikaTextExtractor getReader
+WARNING: Error with file [id=20] coffee7.jpg, see Tika log for details...
+2020-11-01 19:07:08.992 AndroidIngestModule process
+INFO: running 22 analyzers
+2020-11-01 19:07:09.029 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Android Analyzer analysis of FAT_Imposter.iso (pipeline=0) finished
+2020-11-01 19:07:09.029 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Encryption Detection analysis of FAT_Imposter.iso (pipeline=0) starting
+2020-11-01 19:07:09.031 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Encryption Detection analysis of FAT_Imposter.iso (pipeline=0) finished
+2020-11-01 19:07:09.031 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Virtual Machine Extractor analysis of FAT_Imposter.iso (pipeline=0) starting
+2020-11-01 19:07:09.031 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: Looking for virtual machine files in data source FAT_Imposter.iso
+2020-11-01 19:07:09.032 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: No virtual machine files found in data source FAT_Imposter.iso
+2020-11-01 19:07:09.032 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Virtual Machine Extractor analysis of FAT_Imposter.iso (pipeline=0) finished
+2020-11-01 19:07:09.032 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Drone Analyzer analysis of FAT_Imposter.iso (pipeline=0) starting
+2020-11-01 19:07:09.036 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Drone Analyzer analysis of FAT_Imposter.iso (pipeline=0) finished
+2020-11-01 19:07:11.449 org.sleuthkit.autopsy.ingest.IngestJobPipeline logInfoMessage
+INFO: Finished first stage analysis (data source = FAT_Imposter.iso, objId = 1, pipeline id = 0, ingest job id = 1)
+2020-11-01 19:07:11.45 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Keyword search ingest module instance 0 shutting down
+2020-11-01 19:07:11.451 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Keyword search ingest module instance 1 shutting down
+2020-11-01 19:07:11.451 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner endJob
+INFO: Commiting search index before final search for search job 0
+2020-11-01 19:07:11.673 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Starting final search for search job 0
+2020-11-01 19:07:11.673 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Checking for previous search for search job 0 before executing final search
+2020-11-01 19:07:11.674 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Kicking off final search for search job 0
+2020-11-01 19:07:11.674 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Waiting for final search for search job 0
+2020-11-01 19:07:11.723 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner$Searcher doInBackground
+INFO: Searcher took 0 secs to run (final = true)
+2020-11-01 19:07:11.723 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner$SearchJobInfo searchNotify
+INFO: Notifying after finishing search
+2020-11-01 19:07:11.723 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner doFinalSearch
+INFO: Final search for search job 0 completed
+2020-11-01 19:07:11.723 org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner endJob
+INFO: No more search jobs. Stopping periodic search task
+2020-11-01 19:07:11.731 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Indexed files count: 22
+2020-11-01 19:07:11.735 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Indexed file chunks count: 24
+2020-11-01 19:07:11.735 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule postIndexSummary
+INFO: Keyword Indexing Completed: <table border=0><tr><td>Files with known types</td><td>0</td></tr><tr><td>Files with general strings extracted</td><td>19</td></tr><tr><td>Metadata only was indexed</td><td>2</td></tr><tr><td>Error (indexer)</td><td>0</td></tr><tr><td>Error (text extraction)</td><td>0</td></tr><tr><td>Error (I/O)</td><td>0</td></tr></table>
+2020-11-01 19:07:11.737 org.sleuthkit.autopsy.ingest.IngestJobPipeline logInfoMessage
+INFO: Starting second stage analysis (data source = FAT_Imposter.iso, objId = 1, pipeline id = 0, ingest job id = 1)
+2020-11-01 19:07:11.737 org.sleuthkit.autopsy.ingest.IngestJobPipeline logInfoMessage
+INFO: Scheduling second stage data source level analysis tasks (data source = FAT_Imposter.iso, objId = 1, pipeline id = 0, ingest job id = 1)
+2020-11-01 19:07:11.738 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Data Source Integrity analysis of FAT_Imposter.iso (pipeline=0) starting
+2020-11-01 19:07:11.74 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Total chunks = 1,056
+2020-11-01 19:07:11.741 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Starting hash calculation for FAT_Imposter.iso
+2020-11-01 19:07:12.13 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Hash calculated from FAT_Imposter.iso: e3354b03d5675d984ad93ee9479979c3
+2020-11-01 19:07:12.13 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Hash calculated from FAT_Imposter.iso: 8fe15de17e1a6766d776c05c34b787e0f2679254
+2020-11-01 19:07:12.13 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Hash calculated from FAT_Imposter.iso: 3da212130f83bde9dcc4cf83001d6a00abb4f9f03631632d2c2eb58302f73f0d
+2020-11-01 19:07:12.135 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline process
+INFO: Data Source Integrity analysis of FAT_Imposter.iso (pipeline=0) finished
+2020-11-01 19:07:12.136 org.sleuthkit.autopsy.ingest.IngestJobPipeline logInfoMessage
+INFO: Finished analysis (data source = FAT_Imposter.iso, objId = 1, pipeline id = 0, ingest job id = 1)
+2020-11-01 19:07:12.139 org.sleuthkit.autopsy.ingest.IngestManager finishIngestJob
+INFO: Ingest job 0 completed
+2020-11-01 19:07:34.322 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:34.344 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:34.348 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:34.352 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:34.425 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:34.427 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:34.43 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:34.431 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:34.459 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:34.496 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:34.566 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:34.568 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:34.57 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:34.572 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:34.607 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:34.61 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:34.613 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:34.63 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:34.632 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:34.638 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:34.731 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:34.732 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:34.738 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:34.74 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:36.907 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:36.929 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:36.93 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:36.932 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:36.933 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:36.934 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:36.938 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:36.94 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:36.943 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:36.945 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:36.947 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:36.948 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:51.83 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:51.832 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:51.852 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:51.879 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:51.879 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:51.897 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:51.916 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:51.918 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:51.92 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:51.921 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:51.928 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:51.928 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:51.928 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:51.929 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:51.932 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:51.934 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:51.953 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:51.977 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:51.978 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:51.979 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:51.986 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:51.986 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:51.987 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:51.989 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:51.993 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:51.994 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:51.995 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:51.996 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:52.008 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.011 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:52.013 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.018 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:52.019 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:52.022 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:52.023 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:52.025 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.027 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:52.029 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.032 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:52.034 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:52.034 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:52.035 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:52.037 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.039 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:52.04 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.043 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.045 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:52.046 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.049 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:52.051 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:52.052 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:52.054 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:52.056 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:52.057 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:52.059 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:52.061 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:52.455 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.456 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:52.458 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.485 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:52.486 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:52.488 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:52.49 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:52.493 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.494 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:52.496 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.502 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:52.502 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:52.503 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:52.504 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:52.516 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.518 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:52.52 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.523 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:52.524 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:52.526 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:52.527 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:52.529 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.531 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:52.533 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.537 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:52.538 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:52.539 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:52.54 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:52.546 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.548 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:52.549 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.555 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:52.555 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:52.556 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:52.556 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:52.559 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.56 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:52.562 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.568 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:52.569 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:52.569 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:52.57 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:52.578 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.58 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:52.582 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.586 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:52.587 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:52.589 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:52.59 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:07:52.592 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.593 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:07:52.594 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:07:52.598 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:07:52.599 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:07:52.6 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:07:52.601 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:07.538 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not determine width of /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:07.539 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not determine height of /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:07.54 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:07.555 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:08.523 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not determine width of /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:08.524 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not determine height of /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:08.524 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:08.527 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:09.983 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not determine width of /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:09.984 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not determine height of /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:09.984 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:09.987 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:11.066 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not determine width of /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:11.066 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not determine height of /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:11.067 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:11.069 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:11.725 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not determine width of /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:11.725 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not determine height of /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:11.726 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:11.729 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:12.289 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not determine width of /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:12.289 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not determine height of /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:12.29 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:12.292 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:13.422 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not determine width of /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:13.422 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not determine height of /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:13.423 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:13.427 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.478 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.479 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.481 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.487 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.487 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.488 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.488 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.488 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.49 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.491 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.497 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.497 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.498 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.499 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.504 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.506 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.507 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.511 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.512 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.513 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.514 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.514 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.516 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.517 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.521 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.521 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.522 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.523 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.528 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.53 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.531 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.537 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.537 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.538 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.538 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.54 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.542 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.543 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.549 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.549 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.55 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.55 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.558 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.561 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.562 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.566 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.568 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.569 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.57 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.573 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.575 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.576 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.581 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.582 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.583 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.583 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.589 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.591 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.592 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.6 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.6 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.6 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.602 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.604 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.605 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.607 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.613 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.613 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.613 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.614 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.625 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.626 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.628 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.633 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.635 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.635 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.637 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.639 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.641 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.643 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.648 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.648 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.649 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.651 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.657 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.659 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.66 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.667 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.667 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.667 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.688 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.69 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.691 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.692 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.698 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.698 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.698 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.699 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.709 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.711 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.713 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.717 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.717 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.718 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.72 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.722 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.724 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.725 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.727 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.728 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.729 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.73 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.735 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.736 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.737 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.744 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.744 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.744 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.745 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.746 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.748 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.749 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.755 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.756 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.756 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.757 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.765 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.767 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.769 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.771 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.772 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.774 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.775 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:19.776 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.778 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:19.779 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:19.782 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:19.783 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:19.784 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:19.785 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.326 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.327 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.328 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.334 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.334 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.335 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.335 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.336 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.337 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.339 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.345 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.345 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.346 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.346 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.351 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.352 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.354 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.358 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.359 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.36 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.36 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.362 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.363 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.365 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.37 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.371 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.371 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.372 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.377 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.378 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.379 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.385 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.385 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.386 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.386 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.388 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.389 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.391 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.396 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.397 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.397 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.398 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.407 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.408 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.41 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.415 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.416 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.417 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.418 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.42 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.422 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.423 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.427 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.428 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.429 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.431 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.436 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.438 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.439 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.445 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.446 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.446 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.447 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.449 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.45 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.452 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.458 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.458 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.459 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.46 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.468 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.469 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.47 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.474 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.474 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.475 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.476 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.478 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.48 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.482 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.485 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.485 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.486 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.487 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.492 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.493 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.494 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.5 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.5 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.518 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.536 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.538 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.539 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.54 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.546 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.547 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.547 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.547 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.564 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.582 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.6 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.603 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.604 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.605 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.612 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.612 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.617 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.617 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.617 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.618 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.62 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.621 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.627 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.629 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.63 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.632 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.632 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.634 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.635 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.636 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.637 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.638 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.642 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.642 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.642 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.643 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.644 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.645 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.646 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.647 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.648 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.649 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.651 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.653 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.654 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.654 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.655 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.656 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.657 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.662 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.663 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.664 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.67 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.671 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.671 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.671 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.672 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.673 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.674 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.681 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.681 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.688 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.689 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.69 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.694 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.694 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.695 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.695 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.696 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.696 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee5.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.697 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:20.698 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee6.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x4f
+2020-11-01 19:08:20.699 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x04
+2020-11-01 19:08:20.702 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee1.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x38
+2020-11-01 19:08:20.702 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee2.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x46
+2020-11-01 19:08:20.709 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee3.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x47
+2020-11-01 19:08:20.712 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_FAT_Imposter.iso/Photos/coffee4.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Image format error
+2020-11-01 19:08:30.295 org.sleuthkit.autopsy.corecomponents.DataContentViewerHex <init>
+INFO: Created HexView instance: org.sleuthkit.autopsy.corecomponents.DataContentViewerHex[,0,0,0x0,invalid,layout=javax.swing.GroupLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=100,height=58]]
+2020-11-01 19:08:30.485 org.sleuthkit.autopsy.contentviewers.MediaFileViewer <init>
+INFO: Created MediaView instance: org.sleuthkit.autopsy.contentviewers.MediaFileViewer[,0,0,0x0,invalid,layout=java.awt.CardLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-11-01 19:08:30.487 org.sleuthkit.autopsy.contentviewers.FileViewer <init>
+INFO: Created ApplicationContentViewer instance: org.sleuthkit.autopsy.contentviewers.FileViewer[,0,0,0x0,invalid,layout=javax.swing.OverlayLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-11-01 19:08:30.663 org.sleuthkit.autopsy.corecomponents.DataContentTopComponent <init>
+INFO: Created DataContentTopComponent instance: org.sleuthkit.autopsy.corecomponents.DataContentTopComponent[/img_FAT_Imposter.iso/Photos/coffee8.jpg,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=256,maximumSize=,minimumSize=,preferredSize=]
